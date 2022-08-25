@@ -12,7 +12,7 @@ html, body {
   
  
   header{
-    width: 100%;
+    width: auto;
     height: 45px;
     background-color: #ff9a00;;
    /* padding-top: -45px;*/
@@ -27,21 +27,26 @@ html, body {
   .icons{
     color: orange;
     font-size: 13px;
-    padding-left: 55px;
+    margin-left: 95px;
     flex: 1;
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0 29em;
+    padding: 0 15em;
     
 
   }
+  .icon_search {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 10px;
+    
+    
 
+    
+  }
 .icons-right a{
   text-decoration: none;
-  
-  
- 
 }
 .icons-right i{
 
@@ -59,7 +64,7 @@ html, body {
 .blue:hover{
   color: blue;
 }
-.icons-right .orange:hover{
+.orange:hover{
   color: orange;
 }
 
@@ -67,11 +72,11 @@ html, body {
     text-transform: uppercase;
     flex: 1;
     
-     display: flex;
+      display: flex;
      align-items: center;
      height: 100%;
-     padding: 0 28em;
-     font-family: 'Open Sans Condensed', sans-serif;
+     padding: 0 5em;
+     font-family: 'Open Sans Condensed', sans-serif; 
    
    
   
@@ -148,11 +153,15 @@ html, body {
     flex: 1;
     display: flex;
     align-items: center;
+
     height: 100%;
     padding: 0 2em;
   }
   
   input {
+    background: url("../img/585e4ae1cb11b227491c3393.png") top left     no-repeat;
+height:40px;
+padding-left:25px;
     font-size: 1.6rem;
     height: 32px;
   }
