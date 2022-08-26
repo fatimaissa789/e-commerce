@@ -95,9 +95,12 @@ html, body {
     padding-left: 35px;
     background: url("../img/chercher.png") no-repeat left;
     background-size: 20px;
-    width: 345px;
+    width: 545px;
+    border: solid 1px rgb(212, 210, 210);
+    
     
   }
+ 
   
   /**/
   
@@ -172,8 +175,8 @@ html, body {
   
   input {
     background: url("../img/585e4ae1cb11b227491c3393.png") top left     no-repeat;
-height:40px;
-padding-left:25px;
+    height:40px;
+    padding-left:25px;
     font-size: 1.6rem;
     height: 32px;
   }
@@ -183,11 +186,15 @@ padding-left:25px;
   }
   
   input[type="submit"] {
-    flex: 1;
+    /* flex: 1; */
     margin-left: 1rem;
-    background: #333;
+    background: orange;
     border: 0;
+    border-radius: 4px;
     color: white;
+    padding: 5px 22px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+   
   }
   
   /* || main layout */
